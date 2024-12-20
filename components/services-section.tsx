@@ -6,7 +6,7 @@ import { ServiceCard } from '@/components/service-card'
 const services = [
   {
     id: 1,
-    title: "PRIMEIRO CHECKOUT BASEADO EM IA DA AMÉRICA LATINA",
+    title: [ "PRIMEIRO CHECKOUT BASEADO EM IA", <br/> ," DA AMÉRICA LATINA"],
     content: "O primeiro checkout IA based da américa-latina, o mais fácil de usar, o mais personalizável e o que mais converte. Use todo o poder da IA para impulsionar a parte mais relevante do funil de aquisição do seu e-commerce."
   },
   {
