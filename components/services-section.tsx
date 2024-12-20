@@ -50,7 +50,7 @@ export function ServicesSection() {
         </div>
 
         {/* Content */}
-        <div className="max-w-3xl mx-auto space-y-6 text-gray-300">
+        <div className="max-w-3xl space-y-6 text-gray-300">
           <h3 className="text-2xl font-bold text-white">
             {activeService.title}
           </h3>

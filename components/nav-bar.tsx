@@ -17,19 +17,19 @@ export function NavBar() {
   }, [])
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 px-4 py-4">
-      <div className="max-w-7xl mx-auto flex items-center justify-between">
-        <Link href="#home" className="relative w-32 h-8">
+    <nav className="fixed top-0 left-0 right-0 z-50 px-4 py-2">
+      <div className="max-w-7xl mx-auto flex items-center justify-between ">
+        <Link href="#home" className="relative w-32 h-16">
           <Image
             src="/images/nexyn-logo.png"
             alt="Nexyn"
             fill
-            className="object-contain"
+            className="object-fill "
             priority
           />
         </Link>
         
-        <div className="hidden md:flex items-center gap-8">
+        <div className="md:flex items-center px-6 gap-8 bg-[#003366] bg-opacity-60 rounded-full">
           {[
             { name: 'Home', href: '#home' },
             { name: 'Produtos', href: '#produtos' },
