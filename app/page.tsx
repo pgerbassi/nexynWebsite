@@ -1,7 +1,6 @@
 import { NavBar } from '@/components/nav-bar'
 import { HeroSection } from '@/components/hero-section2'
 import { ServicesSection } from '@/components/services-section'
-import { BlogSection } from '@/components/blog-section'
 import { TeamSection } from '@/components/team-section'
 import { Footer } from '@/components/footer'
 
