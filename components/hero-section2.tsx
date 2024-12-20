@@ -37,7 +37,7 @@ export function HeroSection() {
         </div>
         
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight max-w-4xl mx-auto">
-          <span className="text-blue-400">Colocando mais dinheiro no bolso do e-commerce</span>{' '}
+          <span className="text-blue-400">Colocando mais dinheiro no bolso do e-commerce</span>{' '}<br></br>
           <span className="text-white">Por meio de IA</span>
         </h1>
         

@@ -19,7 +19,7 @@ export function NavBar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 px-4 py-2">
       <div className="max-w-7xl mx-auto flex items-center justify-between ">
-        <Link href="#home" className="relative w-32 h-16">
+        <Link href="#home" className="relative w-28 h-16">
           <Image
             src="/images/nexyn-logo.png"
             alt="Nexyn"
