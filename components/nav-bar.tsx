@@ -17,11 +17,11 @@ export function NavBar() {
   }, [])
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 px-4 py-2">
+    <nav className="fixed top-0 left-0 right-0 z-50 px-4 py-2 bg-[#003366] bg-opacity-90">
       <div className="max-w-7xl mx-auto flex items-center justify-between ">
         <Link href="#home" className="relative w-28 h-16">
           <Image
-            src="/images/nexyn-logo.png"
+            src="/images/nexyn-logo-b.png"
             alt="Nexyn"
             fill
             className="object-fill "
@@ -29,7 +29,7 @@ export function NavBar() {
           />
         </Link>
         
-        <div className="md:flex items-center px-6 gap-8 bg-[#003366] bg-opacity-60 rounded-full">
+        <div className="md:flex items-center px-6 gap-8 ">
           {[
             { name: 'Home', href: '#home' },
             { name: 'Produtos', href: '#produtos' },
@@ -57,7 +57,7 @@ export function NavBar() {
           ))}
         </div>
         
-        <Button variant="secondary" className="bg-blue-500/10 backdrop-blur-sm text-white hover:bg-blue-500/20">
+        <Button variant="secondary" className="bg-blue-500/10 backdrop-blur-sm text-white hover:bg-white hover:text-blue-500">
           Fale conosco
         </Button>
       </div>

@@ -7,7 +7,7 @@ export function Footer() {
               © {new Date().getFullYear()} Nexyn. Todos os direitos reservados.
             </div>
             <div className="text-gray-500 text-sm">
-              CNPJ: 12.345.678/0001-90
+              CNPJ: 44.055.312/0001-78
             </div>
           </div>
         </div>

@@ -3,10 +3,12 @@
 import { useState } from 'react'
 import { ServiceCard } from '@/components/service-card'
 
+const checkoutTitle = ["PRIMEIRO CHECKOUT BASEADO EM IA DA AMÉRICA LATINA"];
+
 const services = [
   {
     id: 1,
-    title: [ "PRIMEIRO CHECKOUT BASEADO EM IA", <br/> ," DA AMÉRICA LATINA"],
+    title: checkoutTitle.toString(),
     content: "O primeiro checkout IA based da américa-latina, o mais fácil de usar, o mais personalizável e o que mais converte. Use todo o poder da IA para impulsionar a parte mais relevante do funil de aquisição do seu e-commerce."
   },
   {

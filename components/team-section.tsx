@@ -16,14 +16,14 @@ const teamMembers: TeamMember[] = [
     id: 1,
     name: "Flávio Marques",
     role: "CEO & CO-Founder",
-    image: "https://media.licdn.com/dms/image/v2/D4D03AQHbVc7WpEY1sg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1674529575325?e=1740009600&v=beta&t=9sqbD5dgQGL9cgD9bH6M-LYMI1exy_aO8HNzVA5JRIU",
+    image: "/images/flavio.png",
     linkedin: "https://www.linkedin.com/in/fl%C3%A1vio-marques-inovacao/" // Added LinkedIn URL
   },
   {
     id: 2,
     name: "Lucas Pereira",
     role: "COO & CO-Founder",
-    image: "https://media.licdn.com/dms/image/v2/D4E03AQHG7o3ws7Bjmg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1683296997317?e=1740009600&v=beta&t=JwMRNz813w66xiYA53Q1BEgwOAY1V7XhM6Bkaojfdy0",
+    image: "/images/pereira.png",
     linkedin: "https://www.linkedin.com/in/lpera/" // Added LinkedIn URL
 
   },
@@ -31,14 +31,14 @@ const teamMembers: TeamMember[] = [
     id: 3,
     name: "Matheus Simões",
     role: "Head Comercial",
-    image: "https://media.licdn.com/dms/image/v2/D4D03AQHPrxsmWLiQNg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726577527541?e=1740009600&v=beta&t=mLMIEHp-fCCxUi_Svw6nq0V3jR32lP-NBFbSe1Xlaf0",
+    image: "/images/matheus.png",
     linkedin: "https://www.linkedin.com/in/matheus-sim%C3%B5es-costa/" // Added LinkedIn URL
   },
   {
     id: 4,
     name: "Pablo Costa",
     role: "Software Developer",
-    image: "https://media.licdn.com/dms/image/v2/D4D03AQFZkzN0DqsJrg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1731435521246?e=1740009600&v=beta&t=36RihZ2Nd5PvV3cCpLRJl6Zdzn5P68ZNmPU632t9rE8",
+    image: "/images/pablo.png",
     linkedin: "https://www.linkedin.com/in/pablo-gerbassi-desenvolvedor/" // Added LinkedIn URL
   }
 ]
